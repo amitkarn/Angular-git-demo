@@ -1,0 +1,27 @@
+<div class="commit-sec">
+  <div class="commit-title">Commits</div>
+  <div class="loader-container" *ngIf="showLoader">
+    <div class="loader"></div>
+    <div class="load-text">
+      Loading...
+    </div>
+  </div>
+  <div class="commit-box-border" *ngFor="let commit of commits;">
+    <div class="commit-box-inner">
+      <div class="commit-msg">{{commit.commit.message}}</div>
+      <div class="commit-id">{{commit.sha | slice:1:7}}</div>
+      <div class="commit-details">
+        <img class="author-image" src="{{commit.committer.avatar_url}}"/>
+        <span>
+          <span id="author-name"><b>{{commit.commit.committer.name}}</b></span>
+            <span id="commit-time">commited on {{commit.commit.committer.date | amTimeAgo}}.</span>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="pagination" *ngIf="commits!=undefined">
+    <button id="prev" [ngClass]="{ greyBtn: currentPage==1}" (click)="movePage(0)">Prev</button>
+    <button id="next" (click)="movePage(1)">Next</button>
+  </div>
+</div>
+

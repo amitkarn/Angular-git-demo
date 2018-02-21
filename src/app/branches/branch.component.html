@@ -1,0 +1,8 @@
+<div class="branch-sec">
+  <div class="branch-title">Branch Name</div>
+  <div class="" [ngClass]="{selectedBranch:branch.name==currentBranch}" *ngFor="let branch of branches;" class="branch">
+    <a href="#" (click)="getBranchCommits(branch)">
+      {{ branch.name }}
+    </a>
+  </div>
+</div>

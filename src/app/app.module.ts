@@ -1,18 +1,20 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-
-
-import { AppComponent } from './app.component';
-
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
+import {HttpClientModule} from '@angular/common/http';
+import {AppComponent} from './app.component';
+import {CommitComponent} from './commits/commit.component';
+import {BranchComponent} from './branches/branch.component';
+import {MomentModule} from 'angular2-moment';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent, CommitComponent, BranchComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule, HttpClientModule, MomentModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}

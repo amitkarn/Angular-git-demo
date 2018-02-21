@@ -1,27 +1,47 @@
-# AngularApp
+# Quaero Assignment
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.0.
+It lists all branches of angular repository and corresponding commits with details.
 
-## Development server
+## Getting Started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-## Code scaffolding
+### Prerequisites
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+What things you need to install the software 
 
-## Build
+```
+npm
+node js
+angular 2
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+```
 
-## Running unit tests
+### Installing
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+A step by step series of examples that tell you have to get a development env running
 
-## Running end-to-end tests
+node Installation
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+```
+sudo apt-get update
+sudo apt-get install nodejs
+```
+npm installation
 
-## Further help
+```
+sudo apt-get install npm
+```
+pakage.json Installation
+```
+npm install
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Running the tests
+
+ng serve OR ng serve --open
+
+
+
+

@@ -1,0 +1,28 @@
+@import '../../node_modules/reset-css/reset.css';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+html, body {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+}
+
+.main-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.branch-container {
+  flex: 1;
+}
+
+.commit-container {
+  flex: 3;
+  font-size: 12px;
+}
+
+
+

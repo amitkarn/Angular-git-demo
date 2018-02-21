@@ -42,6 +42,3 @@ npm install
 
 ng serve OR ng serve --open
 
-
-
-

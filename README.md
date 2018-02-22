@@ -13,7 +13,7 @@ What things you need to install the software
 ```
 npm
 node js
-angular 2
+angular cli
 
 ```
 
@@ -35,6 +35,11 @@ sudo apt-get install npm
 pakage.json Installation
 ```
 npm install
+```
+angular cli Installation
+
+```
+npm install -g @angular/cli
 ```
 
 

@@ -1,4 +1,4 @@
-# Quaero Assignment
+# Angular-git-demo
 
 It lists all branches of angular repository and corresponding commits with details.
 
